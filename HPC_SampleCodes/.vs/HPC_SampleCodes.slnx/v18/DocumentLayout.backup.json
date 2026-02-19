@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\arollin5\\Source\\Repos\\HPC_Examples\\HPC_SampleCodes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F739DCB1-71DE-4875-BC1A-B38DE87DBD0F}|HPC_SampleCodes\\HPC_SampleCodes.vcxproj|C:\\Users\\arollin5\\Source\\Repos\\HPC_Examples\\HPC_SampleCodes\\HPC_SampleCodes\\ParallelIntegration_TaskParallelism.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F739DCB1-71DE-4875-BC1A-B38DE87DBD0F}|HPC_SampleCodes\\HPC_SampleCodes.vcxproj|solutionrelative:HPC_SampleCodes\\ParallelIntegration_TaskParallelism.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F739DCB1-71DE-4875-BC1A-B38DE87DBD0F}|HPC_SampleCodes\\HPC_SampleCodes.vcxproj|C:\\Users\\arollin5\\Source\\Repos\\HPC_Examples\\HPC_SampleCodes\\HPC_SampleCodes\\CachingSolution.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F739DCB1-71DE-4875-BC1A-B38DE87DBD0F}|HPC_SampleCodes\\HPC_SampleCodes.vcxproj|solutionrelative:HPC_SampleCodes\\CachingSolution.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F739DCB1-71DE-4875-BC1A-B38DE87DBD0F}|HPC_SampleCodes\\HPC_SampleCodes.vcxproj|C:\\Users\\arollin5\\Source\\Repos\\HPC_Examples\\HPC_SampleCodes\\HPC_SampleCodes\\CachingProblem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F739DCB1-71DE-4875-BC1A-B38DE87DBD0F}|HPC_SampleCodes\\HPC_SampleCodes.vcxproj|solutionrelative:HPC_SampleCodes\\CachingProblem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ParallelIntegration_TaskParallelism.cpp",
+              "DocumentMoniker": "C:\\Users\\arollin5\\Source\\Repos\\HPC_Examples\\HPC_SampleCodes\\HPC_SampleCodes\\ParallelIntegration_TaskParallelism.cpp",
+              "RelativeDocumentMoniker": "HPC_SampleCodes\\ParallelIntegration_TaskParallelism.cpp",
+              "ToolTip": "C:\\Users\\arollin5\\Source\\Repos\\HPC_Examples\\HPC_SampleCodes\\HPC_SampleCodes\\ParallelIntegration_TaskParallelism.cpp",
+              "RelativeToolTip": "HPC_SampleCodes\\ParallelIntegration_TaskParallelism.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-19T01:35:25.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CachingSolution.cpp",
+              "DocumentMoniker": "C:\\Users\\arollin5\\Source\\Repos\\HPC_Examples\\HPC_SampleCodes\\HPC_SampleCodes\\CachingSolution.cpp",
+              "RelativeDocumentMoniker": "HPC_SampleCodes\\CachingSolution.cpp",
+              "ToolTip": "C:\\Users\\arollin5\\Source\\Repos\\HPC_Examples\\HPC_SampleCodes\\HPC_SampleCodes\\CachingSolution.cpp",
+              "RelativeToolTip": "HPC_SampleCodes\\CachingSolution.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-19T01:17:37.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CachingProblem.cpp",
+              "DocumentMoniker": "C:\\Users\\arollin5\\Source\\Repos\\HPC_Examples\\HPC_SampleCodes\\HPC_SampleCodes\\CachingProblem.cpp",
+              "RelativeDocumentMoniker": "HPC_SampleCodes\\CachingProblem.cpp",
+              "ToolTip": "C:\\Users\\arollin5\\Source\\Repos\\HPC_Examples\\HPC_SampleCodes\\HPC_SampleCodes\\CachingProblem.cpp",
+              "RelativeToolTip": "HPC_SampleCodes\\CachingProblem.cpp",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAG0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-19T01:08:04.162Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
