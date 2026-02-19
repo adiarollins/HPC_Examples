@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\arollin5\\Source\\Repos\\Assignment2\\",
+  "WorkspaceRootPath": "C:\\Users\\arollin5\\Source\\Repos\\HPC_Examples\\Assignment2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{657944FC-AE49-4DCD-9536-1E303503FF82}|Assignment2\\Assignment2.vcxproj|C:\\Users\\arollin5\\Source\\Repos\\Assignment2\\Assignment2\\Assignment2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{657944FC-AE49-4DCD-9536-1E303503FF82}|Assignment2\\Assignment2.vcxproj|C:\\Users\\arollin5\\Source\\Repos\\HPC_Examples\\Assignment2\\Assignment2\\Assignment2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{657944FC-AE49-4DCD-9536-1E303503FF82}|Assignment2\\Assignment2.vcxproj|solutionrelative:Assignment2\\Assignment2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Assignment2.cpp",
-              "DocumentMoniker": "C:\\Users\\arollin5\\Source\\Repos\\Assignment2\\Assignment2\\Assignment2.cpp",
+              "DocumentMoniker": "C:\\Users\\arollin5\\Source\\Repos\\HPC_Examples\\Assignment2\\Assignment2\\Assignment2.cpp",
               "RelativeDocumentMoniker": "Assignment2\\Assignment2.cpp",
-              "ToolTip": "C:\\Users\\arollin5\\Source\\Repos\\Assignment2\\Assignment2\\Assignment2.cpp",
+              "ToolTip": "C:\\Users\\arollin5\\Source\\Repos\\HPC_Examples\\Assignment2\\Assignment2\\Assignment2.cpp",
               "RelativeToolTip": "Assignment2\\Assignment2.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-02-18T23:48:43.657Z",
               "EditorCaption": ""
