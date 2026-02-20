@@ -4,70 +4,100 @@
 #include <iostream>
 #include <thread>
 #include <mutex>
+#include <cstdlib>  // for rand() and srand()
+#include <ctime>
 #include <random>
 #include "StopWatch.h"
 using namespace std;
 
 mutex mtx;
 
-long sum = 0;
-int numofthreads = 5;
-long length = 100000000;
+int a[1000000];
+int b[1000000];
+int c[1000000];
+int mins; // global variable for minimum value
+int x;
 
-int* myarray = new int[length];
-long* sumeach = new long[numofthreads * 2000];
-
-
-void myThreadMethod(int threadid)
-{
-	StopWatch sw;
-	// Begin timing
-	sw.start();
-
-	sumeach[threadid * 2000] = 0;
-
-
-	for (int i = (threadid)*length / numofthreads; i < (threadid + 1) * length / numofthreads; i++)
-	{
-		sumeach[threadid * 2000] += myarray[i];
+void myThreadMethod(int thread_id, int N, int p) {
+	// the loop which depends on the given thread_id and size
+	int my_min = c[thread_id * (N/p)];
+	int my_x = thread_id * (N / p);
+	for (int i = thread_id * (N/p); i < (thread_id + 1) * (N/p); i++) {
+		if (c[i] < my_min) {
+			my_min = c[i];
+			my_x = i;
+		}
 	}
-
-
-	// Stop timing
-	sw.stop();
-
-	// Write result
-	cout << "ThreadID: " << threadid << " , Time elapsed: " << sw.elapsedTime() << endl;
+	mtx.lock();
+	if (my_min < mins) {
+		mins = my_min;
+		x = my_x;
+	}
+	mtx.unlock();
 }
 
 
 int main()
 {
 	StopWatch sw;
-    int a[1000000];
-	int b[1000000];
-    int c[1000000];
+
     srand(time(0));
+	//create arrays with random values
     for (int i = 0; i < 1000000; i++) {
         a[i] = rand() % 100;
         b[i] = rand() % 100;
     }
+	//serial addition
 	sw.start();
     for (int i = 0; i < 1000000; i++) {
-        c[i] = a[i] + b[i];
+		c[i] = a[i] + b[i];
+		//cout << c[i] << " ";
     }
+	cout << "Array C created." << endl;	
 	sw.stop();
 	cout << "Time taken: " << sw.elapsedTime() << " ms" << endl;
-    return 0;
+
+	//serial minimum value search
+	sw.start();
+	mins = 200;
+	for (int i = 0; i < 1000000; i++) {
+		if (c[i] < mins) {
+			mins = c[i];
+			x = i;
+		}
+	}
+	cout << "The minimum value in array C is: " << mins << endl;
+	sw.stop();
+	cout << "Time taken for serial program: " << sw.elapsedTime() << " ms" << endl;
+    
+	//parallel	
+	sw.start();
+	int p = 2; // thread count
+	int N = 1000000; // array length
+	int size = N / p; // partition size
+	mins = 200; // reset the minimum value for parallel search
+
+	// thread array for holding the thread instances
+	thread* t = new thread[p];
+
+	// thread creation (actual creation and assignment) loop
+	for (int id = 0; id < p; id++)
+	{
+		// create a thread with the function and required arguments
+		// the creation operation instantly starts the thread to run
+		t[id] = thread(myThreadMethod, id, N,p);
+	}
+
+	// joining loop to wait all thread finish operations
+	for (int i = 0; i < p; i++)
+	{
+		// join function is a blocking function, it returns when thread finishes.
+		t[i].join();
+	}
+
+	// show the result
+	cout << "The minimum value in array C is: " << mins << endl;
+	sw.stop();
+	cout << "Time taken for paralell program: " << sw.elapsedTime() << " ms" << endl;
+	return 0;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file

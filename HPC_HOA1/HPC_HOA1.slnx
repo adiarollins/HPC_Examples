@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="HPC_HOA1/HPC_HOA1.vcxproj" />
+  <Project Path="HPC_HOA1/HPC_HOA1.vcxproj" Id="19726dd8-46cc-4a95-8f19-e5008aa9f2cc" />
 </Solution>
