@@ -1,0 +1,23 @@
+# Visual Studio cache/options
+.vs/
+*.ipch
+ipch/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+
+# Build results
+Debug/
+Release/
+x64/
+x86/
+*.exe
+*.obj
+*.pdb
+*.ilk
+
+# IntelliSense
+*.intellisense.db
