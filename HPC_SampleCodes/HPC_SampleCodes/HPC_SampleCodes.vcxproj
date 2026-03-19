@@ -130,6 +130,8 @@
     <ClCompile Include="CachingProblem.cpp" />
     <ClCompile Include="CachingSolution.cpp" />
     <ClCompile Include="ParallelIntegration_TaskParallelism.cpp" />
+    <ClCompile Include="SerialIntegration.cpp" />
+    <ClCompile Include="SerialIntegrationofPl.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="StopWatch.h" />

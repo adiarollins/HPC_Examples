@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="HPC_SampleCodes/HPC_SampleCodes.vcxproj" />
+  <Project Path="HPC_SampleCodes/HPC_SampleCodes.vcxproj" Id="f739dcb1-71de-4875-bc1a-b38de87dbd0f" />
 </Solution>

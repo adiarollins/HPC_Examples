@@ -1,18 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\arollin5\\Source\\Repos\\HPC_Examples\\HPC_SampleCodes\\",
+  "WorkspaceRootPath": "C:\\Users\\arollin5\\Documents\\GitHub\\HPC_Examples\\HPC_SampleCodes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F739DCB1-71DE-4875-BC1A-B38DE87DBD0F}|HPC_SampleCodes\\HPC_SampleCodes.vcxproj|C:\\Users\\arollin5\\Source\\Repos\\HPC_Examples\\HPC_SampleCodes\\HPC_SampleCodes\\ParallelIntegration_TaskParallelism.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F739DCB1-71DE-4875-BC1A-B38DE87DBD0F}|HPC_SampleCodes\\HPC_SampleCodes.vcxproj|C:\\Users\\arollin5\\Documents\\GitHub\\HPC_Examples\\HPC_SampleCodes\\HPC_SampleCodes\\SerialIntegration.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F739DCB1-71DE-4875-BC1A-B38DE87DBD0F}|HPC_SampleCodes\\HPC_SampleCodes.vcxproj|solutionrelative:HPC_SampleCodes\\SerialIntegration.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F739DCB1-71DE-4875-BC1A-B38DE87DBD0F}|HPC_SampleCodes\\HPC_SampleCodes.vcxproj|C:\\Users\\arollin5\\Documents\\GitHub\\HPC_Examples\\HPC_SampleCodes\\HPC_SampleCodes\\SerialIntegrationofPl.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F739DCB1-71DE-4875-BC1A-B38DE87DBD0F}|HPC_SampleCodes\\HPC_SampleCodes.vcxproj|solutionrelative:HPC_SampleCodes\\SerialIntegrationofPl.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F739DCB1-71DE-4875-BC1A-B38DE87DBD0F}|HPC_SampleCodes\\HPC_SampleCodes.vcxproj|C:\\Users\\arollin5\\Documents\\GitHub\\HPC_Examples\\HPC_SampleCodes\\HPC_SampleCodes\\ParallelIntegration_TaskParallelism.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F739DCB1-71DE-4875-BC1A-B38DE87DBD0F}|HPC_SampleCodes\\HPC_SampleCodes.vcxproj|solutionrelative:HPC_SampleCodes\\ParallelIntegration_TaskParallelism.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F739DCB1-71DE-4875-BC1A-B38DE87DBD0F}|HPC_SampleCodes\\HPC_SampleCodes.vcxproj|C:\\Users\\arollin5\\Source\\Repos\\HPC_Examples\\HPC_SampleCodes\\HPC_SampleCodes\\CachingSolution.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F739DCB1-71DE-4875-BC1A-B38DE87DBD0F}|HPC_SampleCodes\\HPC_SampleCodes.vcxproj|solutionrelative:HPC_SampleCodes\\CachingSolution.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F739DCB1-71DE-4875-BC1A-B38DE87DBD0F}|HPC_SampleCodes\\HPC_SampleCodes.vcxproj|C:\\Users\\arollin5\\Documents\\GitHub\\HPC_Examples\\HPC_SampleCodes\\HPC_SampleCodes\\CachingProblem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F739DCB1-71DE-4875-BC1A-B38DE87DBD0F}|HPC_SampleCodes\\HPC_SampleCodes.vcxproj|solutionrelative:HPC_SampleCodes\\CachingProblem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F739DCB1-71DE-4875-BC1A-B38DE87DBD0F}|HPC_SampleCodes\\HPC_SampleCodes.vcxproj|C:\\Users\\arollin5\\Source\\Repos\\HPC_Examples\\HPC_SampleCodes\\HPC_SampleCodes\\CachingProblem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F739DCB1-71DE-4875-BC1A-B38DE87DBD0F}|HPC_SampleCodes\\HPC_SampleCodes.vcxproj|solutionrelative:HPC_SampleCodes\\CachingProblem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F739DCB1-71DE-4875-BC1A-B38DE87DBD0F}|HPC_SampleCodes\\HPC_SampleCodes.vcxproj|C:\\Users\\arollin5\\Documents\\GitHub\\HPC_Examples\\HPC_SampleCodes\\HPC_SampleCodes\\CachingSolution.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F739DCB1-71DE-4875-BC1A-B38DE87DBD0F}|HPC_SampleCodes\\HPC_SampleCodes.vcxproj|solutionrelative:HPC_SampleCodes\\CachingSolution.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,38 +35,67 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ParallelIntegration_TaskParallelism.cpp",
-              "DocumentMoniker": "C:\\Users\\arollin5\\Source\\Repos\\HPC_Examples\\HPC_SampleCodes\\HPC_SampleCodes\\ParallelIntegration_TaskParallelism.cpp",
-              "RelativeDocumentMoniker": "HPC_SampleCodes\\ParallelIntegration_TaskParallelism.cpp",
-              "ToolTip": "C:\\Users\\arollin5\\Source\\Repos\\HPC_Examples\\HPC_SampleCodes\\HPC_SampleCodes\\ParallelIntegration_TaskParallelism.cpp",
-              "RelativeToolTip": "HPC_SampleCodes\\ParallelIntegration_TaskParallelism.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAABAAAAAAAAAA==",
+              "Title": "SerialIntegration.cpp",
+              "DocumentMoniker": "C:\\Users\\arollin5\\Documents\\GitHub\\HPC_Examples\\HPC_SampleCodes\\HPC_SampleCodes\\SerialIntegration.cpp",
+              "RelativeDocumentMoniker": "HPC_SampleCodes\\SerialIntegration.cpp",
+              "ToolTip": "C:\\Users\\arollin5\\Documents\\GitHub\\HPC_Examples\\HPC_SampleCodes\\HPC_SampleCodes\\SerialIntegration.cpp*",
+              "RelativeToolTip": "HPC_SampleCodes\\SerialIntegration.cpp*",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-19T01:35:25.529Z",
+              "WhenOpened": "2026-03-19T01:05:27.76Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CachingSolution.cpp",
-              "DocumentMoniker": "C:\\Users\\arollin5\\Source\\Repos\\HPC_Examples\\HPC_SampleCodes\\HPC_SampleCodes\\CachingSolution.cpp",
-              "RelativeDocumentMoniker": "HPC_SampleCodes\\CachingSolution.cpp",
-              "ToolTip": "C:\\Users\\arollin5\\Source\\Repos\\HPC_Examples\\HPC_SampleCodes\\HPC_SampleCodes\\CachingSolution.cpp",
-              "RelativeToolTip": "HPC_SampleCodes\\CachingSolution.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAADAAAAAAAAAA==",
+              "Title": "SerialIntegrationofPl.cpp",
+              "DocumentMoniker": "C:\\Users\\arollin5\\Documents\\GitHub\\HPC_Examples\\HPC_SampleCodes\\HPC_SampleCodes\\SerialIntegrationofPl.cpp",
+              "RelativeDocumentMoniker": "HPC_SampleCodes\\SerialIntegrationofPl.cpp",
+              "ToolTip": "C:\\Users\\arollin5\\Documents\\GitHub\\HPC_Examples\\HPC_SampleCodes\\HPC_SampleCodes\\SerialIntegrationofPl.cpp",
+              "RelativeToolTip": "HPC_SampleCodes\\SerialIntegrationofPl.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-19T01:17:37.037Z",
+              "WhenOpened": "2026-03-19T01:04:20.925Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ParallelIntegration_TaskParallelism.cpp",
+              "DocumentMoniker": "C:\\Users\\arollin5\\Documents\\GitHub\\HPC_Examples\\HPC_SampleCodes\\HPC_SampleCodes\\ParallelIntegration_TaskParallelism.cpp",
+              "RelativeDocumentMoniker": "HPC_SampleCodes\\ParallelIntegration_TaskParallelism.cpp",
+              "ToolTip": "C:\\Users\\arollin5\\Documents\\GitHub\\HPC_Examples\\HPC_SampleCodes\\HPC_SampleCodes\\ParallelIntegration_TaskParallelism.cpp",
+              "RelativeToolTip": "HPC_SampleCodes\\ParallelIntegration_TaskParallelism.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-19T01:35:25.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CachingSolution.cpp",
+              "DocumentMoniker": "C:\\Users\\arollin5\\Documents\\GitHub\\HPC_Examples\\HPC_SampleCodes\\HPC_SampleCodes\\CachingSolution.cpp",
+              "RelativeDocumentMoniker": "HPC_SampleCodes\\CachingSolution.cpp",
+              "ToolTip": "C:\\Users\\arollin5\\Documents\\GitHub\\HPC_Examples\\HPC_SampleCodes\\HPC_SampleCodes\\CachingSolution.cpp",
+              "RelativeToolTip": "HPC_SampleCodes\\CachingSolution.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-19T01:17:37.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CachingProblem.cpp",
-              "DocumentMoniker": "C:\\Users\\arollin5\\Source\\Repos\\HPC_Examples\\HPC_SampleCodes\\HPC_SampleCodes\\CachingProblem.cpp",
+              "DocumentMoniker": "C:\\Users\\arollin5\\Documents\\GitHub\\HPC_Examples\\HPC_SampleCodes\\HPC_SampleCodes\\CachingProblem.cpp",
               "RelativeDocumentMoniker": "HPC_SampleCodes\\CachingProblem.cpp",
-              "ToolTip": "C:\\Users\\arollin5\\Source\\Repos\\HPC_Examples\\HPC_SampleCodes\\HPC_SampleCodes\\CachingProblem.cpp",
+              "ToolTip": "C:\\Users\\arollin5\\Documents\\GitHub\\HPC_Examples\\HPC_SampleCodes\\HPC_SampleCodes\\CachingProblem.cpp",
               "RelativeToolTip": "HPC_SampleCodes\\CachingProblem.cpp",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAG0AAAADAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAG0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-02-19T01:08:04.162Z",
               "EditorCaption": ""

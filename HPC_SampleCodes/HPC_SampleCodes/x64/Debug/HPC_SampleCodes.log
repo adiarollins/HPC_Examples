@@ -1,4 +1,2 @@
-﻿  CachingSolution.cpp
-  ParallelIntegration_TaskParallelism.cpp
-  Generating Code...
-  HPC_SampleCodes.vcxproj -> C:\Users\arollin5\Source\Repos\HPC_Examples\HPC_SampleCodes\x64\Debug\HPC_SampleCodes.exe
+﻿  SerialIntegration.cpp
+  HPC_SampleCodes.vcxproj -> C:\Users\arollin5\Documents\GitHub\HPC_Examples\HPC_SampleCodes\x64\Debug\HPC_SampleCodes.exe
